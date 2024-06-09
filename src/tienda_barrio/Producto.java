@@ -1,6 +1,6 @@
 package tienda_barrio;
 
-public class Producto {
+public abstract class Producto {
     private String nombre;
     private String descripcion;
     private String categoria;
@@ -65,12 +65,5 @@ public class Producto {
         this.urlFoto = urlFoto;
     }
 
-    public void mostrarProductos(){
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Descripcion: " + descripcion);
-        System.out.println("Categoria: " + categoria);
-        System.out.println("Etiquetas: " + etiquetas);
-        System.out.println("Precio: " + precio);
-        System.out.println("URL Foto: " + urlFoto);
-    }
+    public abstract void mostrarProductos();
 }
