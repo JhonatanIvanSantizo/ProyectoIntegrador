@@ -19,14 +19,14 @@ public class ProductoAlimenticio extends Producto implements Vendible{
     }
 
     @Override
-    public void mostrarProductos() {
-        System.out.println("Nombre: " + getNombre());
-        System.out.println("Descripción: " + getDescripcion());
-        System.out.println("Categoría: " + getCategoria());
-        System.out.println("Etiquetas: " + String.join(", ", getEtiquetas()));
-        System.out.println("Precio: " + getPrecio());
-        System.out.println("URL Foto: " + getUrlFoto());
-        System.out.println("Fecha de Caducidad: " + fechaCaducidad);
+    public String mostrarProductos() {
+        return "Nombre: " + getNombre() + "\n" +
+                "Descripción: " + getDescripcion() + "\n" +
+                "Categoría: " + getCategoria() + "\n" +
+                "Etiquetas: " + getEtiquetas() + "\n" +
+                "Precio: " + getPrecio() + "\n" +
+                "URL Foto: " + getUrlFoto() + "\n" +
+                "Fecha de Caducidad: " + fechaCaducidad + "\n";
     }
     @Override
     public double calcularPrecioVenta(){

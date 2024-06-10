@@ -1,0 +1,20 @@
+Producto alimenticio:
+Nombre: Leche entera
+Descripción: Bolsa x 1.100ml
+Categoría: Lacteos
+Etiquetas: Leche
+Precio: 31.0
+URL Foto: https://www3.gobiernodecanarias.org/medusa/mediateca/ecoescuela/wp-content/uploads/sites/2/2013/11/14-Leche.png
+Fecha de Caducidad: 2024-06-09
+Precio de venta: 37.2
+
+Producto electronico:
+Nombre: Computadora de escritorio
+Descripción: 8GB de Ram, i7
+Categoría: Equipo de computo
+Etiquetas: PC
+Precio: 5999.99
+URL Foto: https://intelite.gt/wp-content/uploads/2021/03/Sin-titulo-1.jpg
+Garantía (meses): 36
+Precio de venta: 7199.987999999999
+

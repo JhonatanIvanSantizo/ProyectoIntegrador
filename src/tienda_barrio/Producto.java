@@ -65,5 +65,5 @@ public abstract class Producto {
         this.urlFoto = urlFoto;
     }
 
-    public abstract void mostrarProductos();
+    public abstract String mostrarProductos();
 }
